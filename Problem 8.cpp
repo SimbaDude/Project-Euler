@@ -15,7 +15,7 @@ int main()
     unsigned long long int p = 0; //a variable to hold the final product; took me forever to discover an int wouldn't cut it
     unsigned long long int p1;    // and a variable to hold the product were currently calculating
     ifstream in; // creat an input file stream
-    in.open ("data/input"); //use it to open the data file
+    in.open ("data/input8"); //use it to open the data file
     string list;
     in >> list; //get the data into a string that we can work with
 
