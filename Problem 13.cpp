@@ -30,13 +30,13 @@ int main()
 
     while (carry >9)
     {
-        if (carry > 1000)
+        if (carry > 999)
         {
             s += 100;
             carry -= 1000;
         }
 
-        else if (carry > 100)
+        else if (carry > 99)
         {
             s += 10;
             carry -= 100;
