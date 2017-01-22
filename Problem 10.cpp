@@ -21,7 +21,7 @@ int main()
         prime[a] = true;
 
     prime[0] = false;
-    prime[1] = false; //I will initialize zero and one to read "not prime"
+    prime[1] = false; //I will change zero and one to read "not prime"
 
     for (int i = 2; i * i <= limit + 1; i++)
         if (prime[i])
