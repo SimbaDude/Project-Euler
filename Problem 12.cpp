@@ -61,7 +61,7 @@ int main()
 
         if (divisors > 500)
         {
-                cout << N << " has " << divisors << " divisors " << endl;
+                cout << N << " has " << divisors << " divisors it is the " << x << "th triangle number" <<  endl;
                 break;
         }
 
