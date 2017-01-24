@@ -13,7 +13,7 @@ int main()
     ifstream parser;
     parser.open("data/input13");
     string sums [100]; // gotta hold all those numbers
-    int sum [50]; // we only need the first ten digits of the sum
+    int sum [50]; 
     int carry = 0,
      s = 0; // i didn't plan this very well
     for (int a = 0; a < 100; a++)
