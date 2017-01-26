@@ -15,7 +15,7 @@ int main()
      unsigned long long i, n =  600851475143; // took me a very long time to figure out an integer would not hold this value
 
     for (i = 2; i < n; i ++) //for each i starting with i = 2
-        if (!(n % i))        //if i is a factor of n then it is also a prime factor because it is the smallest factor of n
+        if (!(n % i))        //if i is a factor of n then it is also a prime factor
         do                   //so we will factor out i as many times as it factors into n, until we can no longer factor n
             n /= i;
             while (!(n % i));
